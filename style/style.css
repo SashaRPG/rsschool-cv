@@ -1,0 +1,191 @@
+@media screen and (max-width: 815px){
+    content{
+        width:80%; 
+        margin: 10% 10% 10% 10%; 
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .photo{
+        max-height: 140px;
+        width: auto;
+        display: block;
+        float: left;
+    }
+    
+}
+
+@media screen and (max-width: 440px){
+    content{
+        width:100%; 
+        margin: 10% 2% 10% 2%;    
+    }
+    .photo{
+        float: none;
+        display: block;
+        max-height: 120px;
+        width: auto;
+    }
+    .header{
+        height: 400px;
+    }
+    .name, .header-text{
+       display: block;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .photo{
+        padding-top: 10%;
+        float: none;
+        display: block;
+        max-height: 60px;
+        width: auto;
+    }
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1{
+    margin: 0;
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    background: #CDFEAA;
+}
+
+.header{
+    background-color: antiquewhite;
+    margin: 0;
+    height: 290px;
+    border-bottom: 0.5em solid black;
+}
+
+.name, .header-text{
+    padding-top: 5%;
+    padding-left: 5%;
+    overflow: auto;
+}
+
+.header-text{
+    font-size: 1.2em;
+}
+
+.photo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-right: 5%;
+    height: 250px;
+    width: auto;
+    float: right;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact-info-title{
+    padding-left: 2%;
+}
+
+.contact-info{
+    font-size: 1.2em;
+    width: 80%;
+    padding: 0 5% 3% 3%;
+}
+
+.autobiography{
+    font-size: 1.2em;
+    padding: 0 5% 5% 5%;
+}
+
+.my-skills{
+    font-size: 1.2em;;
+    padding: 0 5% 5% 5%;
+}
+
+.code-example{
+    padding: 0 5% 5% 5%;
+    font-size: 1.2em;
+}
+
+
+.code-example-code{
+    font-family: consolas;
+    text-align: left;
+    padding: auto;
+}
+
+.experience{
+    font-size: 1.2em;;
+    padding: 0 5% 5% 5%;
+}
+
+.github-link{
+    outline: none;
+    padding: 10px;
+}
+
+.education{
+    font-size: 1.2em;;
+    padding: 0 5% 5% 5%;
+}
+
+.courses{
+    font-size: 1.2em;;
+    padding: 0 5% 5% 5%;
+}
+
+ul.courses-list{
+    list-style-type: square;
+}
+
+.languages{
+    font-size: 1.2em;
+    padding: 0 5% 5% 5%;
+}
+
+
+.footer{
+    border-top: 0.5em solid black;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.footer-info-bar{
+    display: flex;
+    margin: 1em;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.footer-link{
+    font-size: 1rem;
+}
+
+.footer-logo{
+    height: 2em;
+    max-height: 4em;
+}
