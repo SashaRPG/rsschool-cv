@@ -1,3 +1,3 @@
 # rsschool-cv
 CV for RS School
-SashaRPG.github.io/rsschool-cv/
+https://SashaRPG.github.io/rsschool-cv/
