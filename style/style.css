@@ -15,15 +15,6 @@
     
 }
 
-@media screen and (max-width: 330px) {
-    .photo{
-        float: none;
-        display: block;
-        max-height: 60px;
-        width: auto;
-    }
-}
-
 @media screen and (max-width: 440px){
     content{
         width:100%; 
@@ -40,6 +31,16 @@
     }
     .name, .header-text{
        display: block;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .photo{
+        padding-top: 10%;
+        float: none;
+        display: block;
+        max-height: 60px;
+        width: auto;
     }
 }
 
